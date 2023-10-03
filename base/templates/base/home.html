@@ -1,0 +1,88 @@
+{% load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dennis Ivanov</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/teju_profilepic.jpg' %}" >
+					<hr>
+					<h4>Hi I'm SaiTejasweni</h4>
+					<p>I'm a software developer</p>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>About Me</h4>
+				    <hr>
+					<p> Around 4 years total IT experience as a software engineer and Python Developer. Extensive experience in Python Django web frameworks in implementing MVC architecture.</p>
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Python Developer</h5>
+					<hr>
+					<p>Worked on backend part of application in django using python to create APIs and maintaining the databases
+Involved in the software development life cycle of tracking the requirements, gathering ,analysis
+Working closely with the front end developers to develop and improve the user interface and to integrate the APIs
+Good expertise in  managing the code versioning with Github, Bitbucket and responsible for the deployment to staging and production servers
+Worked with core AWS services(S3,EC2,VPC) and implemented security practices using IAM, CloudWatch.
+Good Experience with continuous integration and continuous deployment(CI/CD) using AWS code pipeline
+Involved in the code reviews and technical documentation for reference and reporting</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Skill Set</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, JavaScript/Jquery, React, Postgres, AWS and APIs such as google maps, JavaScript charts and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+					<p>DataBase: Mongo DB and MYSQL</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Education</h5>
+					<hr>
+					<p>Bachelor of Technology (Computer Science and Engineering), 2015 - 2019</p>
+					<p>SRK Institute of Engineering and Technology, Vijayawada with an aggregate 76.24%</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Projects</h5>
+				<hr>
+				<p>project delivery system</p>
+				<p>Technologies:Python3, Django Framework, HTML,CSS,Bootstrap</p>
+				<p>Responsibilities: Developed the backend part using Django Framework</p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
